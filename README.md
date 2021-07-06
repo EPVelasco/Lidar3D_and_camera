@@ -2,7 +2,7 @@
 Testing of transformation matrices between Lidar Velodyne VLP16 and RGB camera with MatLAB. The example used the ROS package to calibrate a camera and a LiDAR from [lidar_camera_calibration](https://github.com/ankitdhall/lidar_camera_calibration).
 
 # Test
-Visual representation of lidar-camera calibration
+Visual representation of LiDAR-camera calibration
 <p float="left">
   <img src="/frame0.jpg" width="390"  />
   <img src="/images/Lidar_camera_and_Blue.png" width="440"  />
