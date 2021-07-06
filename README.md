@@ -3,8 +3,9 @@ Testing of transformation matrices between Lidar Velodyne VLP16 and RGB camera w
 
 # Test
 Visual representation of lidar-camera calibration
-<p float="center">
-  <img src="/images/Lidar_camera_and_Blue.png" width="800"  />
+<p float="left">
+  <img src="/frame0.jpg" width="400"  />
+  <img src="/images/Lidar_camera_and_Blue.png" width="400"  />
   <img src="/images/lidar_on_image.png" width="800" /> 
 </p>
 
