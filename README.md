@@ -3,7 +3,7 @@ Testing of transformation matrices between Lidar Velodyne VLP16 and RGB camera w
 
 ## Matrix transformation 
 
-<p float="center">
+<p align="center">
   <img src="/images/equations.png" width="400"  />
 </p>
 
