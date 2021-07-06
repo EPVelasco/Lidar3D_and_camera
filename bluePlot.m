@@ -1,29 +1,20 @@
 function  graphRobot=bluePlot(x,y,z,phi,psi,scaleRobot)
 load 'blueSTL.mat'
-%phi = phi - pi/2;
-%psi = psi - pi/2;
+
 %Matrix Rotation z axis
 Rz=[ cos(phi) -sin(phi) 0; sin(phi) cos(phi) 0; 0 0 1];
 %%llantas delanteras transformada
 Rzi=[ cos(phi+psi) -sin(phi+psi) 0; sin(phi+psi) cos(phi+psi) 0; 0 0 1];
 dyi=1.1*sin(phi);
 dxi=1.1*cos(phi);
-%dxi=0;
-%dyi=0;
 
 Rzd=[ cos(phi+psi) -sin(phi+psi) 0; sin(phi+psi) cos(phi+psi) 0; 0 0 1];
 dyd=1.1*sin(phi);
 dxd=1.1*cos(phi);
-%dxd=0;
-%dyd=0;
-
 
 Rzeje=[ cos(phi+psi) -sin(phi+psi) 0; sin(phi+psi) cos(phi+psi) 0; 0 0 1];
 dye=1.1*sin(phi);
 dxe=1.1*cos(phi);
-%dxd=0;
-%dyd=0;
-
 
 robotPatch = Rz*base.vertices';
 robotPatch(1,:)=robotPatch(1,:)*scaleRobot+x; 
